@@ -15,7 +15,18 @@ body {
 .container {
     background-color: #fafafa;
     transform-origin: top left;
+
+    /* transform-origin sets the origin for an element's transformation 
+     * set it to the top-left will cause the <div class="container"></div> element
+     * transformation (in this mini-project the transformation is rotation).
+     */
+
     transition: transform 500ms linear;
+
+    /* If we set *all*, not *transform*, then when the page zooms in or zooms out,
+     * the content will also zoom in or zoom out with a **DELAY**
+     */
+
     width: 100vw;
     min-height: 100vh;
     padding: 50px;
@@ -46,7 +57,7 @@ body {
     width: 200px;
     border-radius: 50%;
     position: relative;
-    transition: transform 0.5s linear;
+    transition: transform 500ms linear;
 }
 
 .circle button {
