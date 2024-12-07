@@ -54,6 +54,11 @@ body {
     transition: 400ms, ease;
 }
 
+/* 
+ * The most elegent thought is separating the progress and
+ * circle using z-index
+ */
+
 .circle {
     background-color: #fff;
     color: #e2e2e2;

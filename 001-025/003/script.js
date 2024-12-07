@@ -7,7 +7,7 @@ let currentActiveID = 1;
 
 function update() {
   circles.forEach((circle, index) => {
-    if (index < currentActiveID) {
+    if (index + 1 <= currentActiveID) {
       circle.classList.add("active");
     } else {
       circle.classList.remove("active");
