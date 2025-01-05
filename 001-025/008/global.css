@@ -74,7 +74,7 @@ h1 {
 
 .split.left,
 .split.right {
-    transition: all 400ms ease-in-out;
+    transition: all 400ms ease-out;
 }
 
 .hover-left .left {
